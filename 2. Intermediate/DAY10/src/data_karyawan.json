@@ -1,0 +1,16 @@
+[
+	{
+		"nip":"106",
+		"nama":"Tikus",
+		"email":"tikus@mail.com",
+		"posisi":"DPR",
+		"gaji":"0.0"
+	},
+	{
+		"nip":"108",
+                "nama":"MEKL",
+                "email":"mekl@mail.com",
+                "posisi":"Elite Global",
+                "gaji":"9999999999999999.9"
+	}
+]

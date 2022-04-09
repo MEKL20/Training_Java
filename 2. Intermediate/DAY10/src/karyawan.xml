@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SemuaKaryawan>
+        <Karyawan>
+                <nip>110</nip>
+                <nama>Dadang</nama>
+                <email>da@da.ng</email>
+                <posisi>Supervisor</posisi>
+                <gaji>1000</gaji>
+        </Karyawan>
+</SemuaKaryawan>

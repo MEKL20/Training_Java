@@ -1,0 +1,4 @@
+interface AlatTulis
+{
+	void menulis();
+}

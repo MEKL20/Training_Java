@@ -1,0 +1,48 @@
+import java.util	.*;
+
+public class CalculatorCMD
+{
+        public static void main(String [] bebas)
+        {
+		try{
+                while(true)
+                {
+                        Scanner penangkap=new Scanner(System.in);
+                        System.out.println("================================");
+                        System.out.print("Angka 1 : ");
+                        String angka1=penangkap.nextLine();
+                        System.out.print("Angka 2 Anda :  ");
+                        String angka2=penangkap.nextLine();
+                        System.out.print("Operator Nya ? (+ - x :) : ");
+                        String operator=penangkap.nextLine();
+                        System.out.println("============Hasil Anda===========");
+			double bil1=Double.parseDouble(angka1);
+			double bil2=Double.parseDouble(angka2);
+			double hasil=0;
+			if(operator.equals("+")){
+				hasil=bil1+bil2;
+				System.out.println(angka1" + "angka2" = "+hasil);
+			}else if(operator.equals("-")){
+                                hasil=bil1-bil2;
+                                System.out.println(angka1" - "angka2" = "+hasil);
+                        }else if(operator.equals("*")){
+                                hasil=bil1*bil2;
+                                System.out.println(angka1" x "angka2" = "+hasil);
+                        }else if(operator.equals(":")){
+                                hasil=bil1/bil2;
+                                System.out.println(angka1" : "angka2" = "+hasil);
+                        }else{
+				break;
+			}
+
+                        System.out.println("================================");
+                        System.out.print("Anda Ingin Entry Data Lagi ? Y/N : ");
+                        String jawaban=penangkap.nextLine();
+                        if(jawaban.equals("y") || jawaban.equals("Y")){
+                                continue;
+                        }else{
+                                break;
+                        }
+                }
+        }
+}

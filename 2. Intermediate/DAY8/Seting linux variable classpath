@@ -1,0 +1,6 @@
+- nano ~/.bashrc
+- ketik "CLASSPATH=.:{location mysql dirver jar nya}"
+- contoh "CLASSPATH=.:/home/mekl/JDT/JAVA/DAY8/javalib/mysql-driver-new.jar;export CLASSPATH"
+- then save file
+- restart bashrc with type command "source ~/.bashrc"
+- check classpath type command "echo $CLASSPATH"

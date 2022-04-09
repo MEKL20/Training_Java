@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<SemuaKaryawan>
+	<Karyawan>
+		<nip>110</nip>
+		<nama>Dadang</nama>
+		<email>da@da.ng</email>
+		<posisi>Supervisor</posisi>
+		<gaji>1000</gaji>
+	</Karyawan>
+	<Karyawan>
+		<nip>111</nip>
+		<nama>Eri</nama>
+		<email>e@r.i</email>
+		<posisi>Manager</posisi>
+		<gaji>2000</gaji>
+	</Karyawan>
+	<Karyawan>
+		<nip>112</nip>
+		<nama>Fikri</nama>
+		<email>fi@kr.i</email>
+		<posisi>General Manager</posisi>
+		<gaji>3000</gaji>
+	</Karyawan>	
+</SemuaKaryawan>
